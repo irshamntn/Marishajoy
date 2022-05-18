@@ -1,0 +1,324 @@
+body{
+    background-color: #BA7D7F;
+    display: block;
+    margin: 0;
+    color: #632626;
+}
+
+.header{
+    text-align: center;
+}
+
+.emoji{
+    margin-top: 30px;
+    width: 25px;
+    height: 25px;
+
+}
+
+h1{
+    margin:0%;
+    font-family: 'Zen Loop', cursive;
+    color: #632626;
+    font-size: 50px;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.nav{
+    margin: 40px 45px;
+}
+
+a:hover{
+    color: #DACC96;
+}
+
+.body{
+    position: relative;
+}
+
+.services{
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    background-color: #802B4A;
+    top: 880px;
+    right: 235px;
+    border-radius: 40px;
+}
+
+.title{
+    text-align: center;
+    color: #F0E5CF;
+}
+
+.serve{
+    margin: 5px 50px;
+    text-align: center;
+    color: #F0E5CF;
+}
+
+.bar{
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    background-color: #632626;
+    top: 130px;
+    right: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menubar{
+    position: absolute;
+    text-align: center;
+    margin: 1px;
+    top: 15px;
+    left: 13px;
+}
+
+.menu{
+    position: relative;
+    width: 1349px;
+    height: 1350px;
+    background-color: white;
+    top: 180px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+}
+
+.name{
+    margin-top: 15px;
+    font-family: 'Zen Loop', cursive;
+    color: #632626;
+    font-size: 50px;
+    text-align: center;
+}
+
+.br{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    background-color: #632626;
+    top: 440px;
+    right: 235px;
+}
+
+.espresso{
+    position: absolute;
+    margin-top: 50px;
+    left: 300px;
+}
+
+.espresso-1{
+    color: #632626;
+    position: absolute;
+    margin-top: 10px;
+    left: 430px;
+    top: 350px;
+}
+
+.macchiato{
+    position: absolute;
+    margin-top: 50px;
+    right: 300px;
+}
+
+.macchiato-1{
+    color: #632626;
+    position: absolute;
+    margin-top: 10px;
+    right: 430px;
+    top: 350px;
+}
+
+.cappuccino{
+    position: absolute;
+    margin-top: 70px;
+    left: 250px;
+    top: 350px;
+}
+
+.cappuccino-1{
+    color: #632626;
+    position: absolute;
+    margin-top: 30px;
+    left: 430px;
+    top: 700px;
+}
+
+.americano{
+    position: absolute;
+    margin-top: 70px;
+    right: 250px;
+    top: 350px;
+}
+
+.americano-1{
+    color: #632626;
+    position: absolute;
+    margin-top: 30px;
+    right: 430px;
+    top: 700px;
+}
+
+
+.galao{
+    position: absolute;
+    margin-top: 70px;
+    left: 250px;
+    top: 750px;
+}
+
+.galao-1{
+    color: #632626;
+    position: absolute;
+    margin-top: 30px;
+    left: 430px;
+    top: 1200px;
+}
+
+.con{
+    position: absolute;
+    margin-top: 70px;
+    right: 250px;
+    top: 750px;
+}
+
+.con-1{
+    color: #632626;
+    position: absolute;
+    margin-top: 30px;
+    right: 390px;
+    top: 1200px;
+}
+
+.order{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #632626;
+    top: 1300px;
+    right: 640px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.order-1{
+    position: absolute;
+    text-align: center;
+    color: black;
+    margin: 1px;
+    top: 12px;
+    left: 20px;
+}
+
+.about{
+    position: relative;
+    background-color: #BA7D7F;
+    height: 500px;
+    width: 1300px;
+    top: 200px;
+}
+
+.us{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.about-1{
+    position: absolute;
+    background-color: #802B4A;
+    height: 300px;
+    width: 570px;
+    right: 1px;
+    top: 90px;
+    border-radius: 20px;
+}
+
+.about-2{
+    color: #F0E5CF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+li{
+    color: #F0E5CF;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.container{
+    position: relative;
+    top: 200px;
+    width: 800px;
+    left: 300px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:  #802B4A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:  #f2f2f2;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #F0E5CF;
+    padding: 20px;
+  }
+
+  .conus{
+    margin-top: 15px;
+    font-family: 'Zen Loop', cursive;
+    color: #632626;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
